@@ -4,7 +4,7 @@ header: "Services"
 subheader: "Lorem ipsum dolor sit amet consectetur."
 services: [
   {
-    iconName: "ShoppingCartIcon",
+    iconName: "SearchIcon",
     header: "E-Commerce",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
@@ -14,7 +14,7 @@ services: [
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
-    iconName: "LockIcon",
+    iconName: "BoltIcon",
     header: "Web Security",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   }

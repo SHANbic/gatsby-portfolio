@@ -1,7 +1,5 @@
 ---
-header: "It's Nice To Meet You"
-subheader: "Welcome To Our Studio!"
+header: "WebSite Creation"
+subheader: "Exist on the Internet"
 imageFileName: "header-bg.jpg"
-jumpToAnchor: "Services"
-jumpToAnchorText: "Tell Me More"
 ---

@@ -25,13 +25,11 @@ const Team = ({ className, frontmatter }) => {
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
-      <Row>
-        {teamMember.map(({ header, ...tmProps }) => (
-          <Col sm={4} key={header}>
-            <TeamMember header={header} {...tmProps} />
-          </Col>
-        ))}
-      </Row>
+      {/* <Row> */}
+      {teamMember.map(({ header, ...tmProps }) => (
+        <TeamMember key={header} header={header} {...tmProps} />
+      ))}
+      {/* </Row> */}
       <Row>
         <Col lg={8} className="mx-auto text-center">
           <p className="large text-muted">{rootContent}</p>
