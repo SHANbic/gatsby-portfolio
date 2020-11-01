@@ -1,4 +1,4 @@
 ---
-brand: "lovedev"
+brand: "LoveDev"
 menuText: "Menu "
 ---

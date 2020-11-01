@@ -1,7 +1,9 @@
 // Styling for the team section
 .team-member {
-  margin-bottom: 50px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
   .circle {
     width: 225px;
     height: 225px;
@@ -14,5 +16,16 @@
   }
   p {
     margin-top: 0;
+  }
+  &-info {
+    flex-basis: 50%;
+    text-align: center;
+  }
+  &-presentation {
+    flex-basis: 50%;
+    padding: 10px 0;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
   }
 }

@@ -1,9 +1,9 @@
 ---
-copyright: "Copyright © Start Bootstrap 2020"
+copyright: "© 2020 - Lovedev"
 social: {
-  twitter: "#",
-  facebook: "#",
-  medium: "#"
+  linkedin: "pierre-lambert-webdevelopment/",
+  github: "SHANbic",
+  twitter: "itsgeneralUX"
 }
 privacyText: "プライバシー"
 privacyHref: "#!"

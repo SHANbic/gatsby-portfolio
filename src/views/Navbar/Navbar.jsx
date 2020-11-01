@@ -46,6 +46,11 @@ const MyNavbar = ({ anchors, frontmatter, extraItems }) => {
       <Container>
         <Navbar.Brand className="cursor-pointer" onClick={handleBrandClick}>
           {brand}
+          <img
+            className="pixel-heart"
+            src={require("../../../content/assets/images/logos/pixel-heart.png")}
+            alt="lovedev logo"
+          />
         </Navbar.Brand>
         <Navbar.Toggle onClick={toggleMenu} aria-label="Toggle navigation">
           {menuText}
