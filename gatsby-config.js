@@ -1,5 +1,5 @@
 const path = require("path");
-const { title, keywords, description, author, trackingId } = require("./config/site");
+const { title, keywords, description, author } = require("./config/site");
 
 module.exports = {
   siteMetadata: {
@@ -9,12 +9,6 @@ module.exports = {
     author,
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId,
-      },
-    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {

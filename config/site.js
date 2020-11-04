@@ -10,7 +10,6 @@ module.exports = {
   ],
   description: "Obtenez un site web sur mesure. Faites découvrir votre activité au monde entier",
   author: "Pierre Lambert",
-  trackingId: "G-9L2J7XPH2Y",
   defaultLang: "fr",
   langTextMap: {
     en: "English",
