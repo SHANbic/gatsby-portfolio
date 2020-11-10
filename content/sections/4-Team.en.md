@@ -1,38 +1,19 @@
 ---
-anchor: "Team"
-header: "Our Amazing Team"
-subheader: "Lorem ipsum dolor sit amet consectetur."
-content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+anchor: "About"
+header: "About"
+subheader: ""
+content: ""
 teamMember: [
   {
-    imageFileName: "team/1.jpg",
-    header: "Kay Garland",
-    subheader: "Lead Designer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      linkedin: "#"
-    }
-  },
-  {
     imageFileName: "team/2.jpg",
-    header: "Larry Parker",
-    subheader: "Lead Marketer",
+    header: "Pierre Lambert",
+    subheader: "Web Developer",
+    presentation: "You can all go fuck yourselves",
     social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
+       linkedin: "pierre-lambert-webdevelopment/",
+      github: "SHANbic",
+      twitter: "itsgeneralUX"
     }
-  },
-  {
-    imageFileName: "team/3.jpg",
-    header: "Diana Pertersen",
-    subheader: "Lead Developer",
-    social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
-    }
-  },
+  }
 ]
 ---

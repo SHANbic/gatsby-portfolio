@@ -119,16 +119,12 @@ const IndexPage = ({ data }) => {
       <Top frontmatter={topNode.frontmatter} />
       {
         // dynamically import sections
-        sectionsNodes.map(({ frontmatter, fields: { fileName } }, ind) => {
+        sectionsNodes.map(({ frontmatter, fields: { fileName } }) => {
           const sectionComponentName = fileNameToSectionName(fileName);
           const SectionComponent = Sections[sectionComponentName];
 
           return SectionComponent ? (
-            <SectionComponent
-              key={sectionComponentName}
-              className={ind % 2 === 1 ? "bg-light" : null}
-              frontmatter={frontmatter}
-            />
+            <SectionComponent key={sectionComponentName} frontmatter={frontmatter} />
           ) : null;
         })
       }

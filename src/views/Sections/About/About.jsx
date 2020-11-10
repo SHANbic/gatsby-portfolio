@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import { Row, Col } from "react-bootstrap";
-import TimelineItem from "components/TimelineItem";
+/* import TimelineItem from "components/TimelineItem"; */
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
 import nl2br from "utils/nl2br";
@@ -21,7 +21,7 @@ const About = ({ className, frontmatter }) => {
       <Row>
         <SectionHeader header={rootHeader} subheader={rootSubHeader} />
       </Row>
-      <Row>
+      {/* <Row>
         <Col lg={12}>
           <ul className="timeline">
             {timeline.map(({ content, header, imageContent, imageFileName, subheader }, ind) => (
@@ -41,7 +41,7 @@ const About = ({ className, frontmatter }) => {
             ))}
           </ul>
         </Col>
-      </Row>
+      </Row> */}
     </PageSection>
   );
 };

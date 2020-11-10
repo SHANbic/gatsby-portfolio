@@ -77,17 +77,7 @@ const SEO = ({ lang, description, meta, keywords, title }) => {
             : [],
         )
         .concat(meta)}
-    >
-      {`
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-9L2J7XPH2Y"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-                  
-        gtag('config', 'G-9L2J7XPH2Y');
-      </script>`}
-    </Helmet>
+    />
   );
 };
 
@@ -100,7 +90,7 @@ SEO.propTypes = {
 };
 
 SEO.defaultProps = {
-  lang: "ja",
+  lang: "fr",
   meta: [],
   keywords: [],
   description: "",

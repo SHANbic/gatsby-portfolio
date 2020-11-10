@@ -30,8 +30,10 @@
 @media (min-width: 768px) {
   .image-card {
     height: 759px;
+    max-height: 100vh;
     .image {
-      height: 759px;
+      height: 100%;
+      transform: scale(1.005);
     }
     .intro-text {
       padding-top: 300px;

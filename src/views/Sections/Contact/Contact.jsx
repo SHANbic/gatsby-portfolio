@@ -17,19 +17,18 @@ const Contact = ({ className, frontmatter }) => {
       <Row className="justify-content-center">
         <Col lg={8} className="text-center">
           <h2 className="mt-0">{header}</h2>
-          <hr className="divider my-4" />
-          <p className="text-muted mb-5">{subheader}</p>
+          <p className="mb-3">{subheader}</p>
         </Col>
       </Row>
       <Row>
-        <Col lg={4} className="ml-auto text-center">
-          <Icon iconName="PhoneIcon" size="3x" className="text-muted mb-3" />
-          <a className="d-block" href={`tel:${telephone}`}>
+        <Col sm={6} className="ml-auto text-center phone-icon">
+          <Icon iconName="PhoneIcon" size="3x" className="mb-1" />
+          <a className="d-block " href={`tel:${telephone}`}>
             {telephone}
           </a>
         </Col>
-        <Col lg={4} className="mr-auto text-center">
-          <Icon iconName="EnvelopIcon" size="3x" className="text-muted mb-3" />
+        <Col sm={6} className="mr-auto text-center">
+          <Icon iconName="EnvelopIcon" size="3x" className="mb-1" />
           <a className="d-block" href={`mailto:${email}`} target="_blank" rel="noreferrer">
             {email}
           </a>

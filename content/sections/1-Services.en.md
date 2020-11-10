@@ -1,7 +1,7 @@
 ---
 anchor: "Services"
 header: "Services"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+subheader: ""
 services: [
   {
     iconName: "SearchIcon",
