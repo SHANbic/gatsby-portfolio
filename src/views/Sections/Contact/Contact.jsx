@@ -27,7 +27,7 @@ const Contact = ({ className, frontmatter }) => {
             {telephone}
           </a>
         </Col>
-        <Col sm={6} className="mr-auto text-center">
+        <Col sm={6} className="mr-auto text-center mail-icon">
           <Icon iconName="EnvelopIcon" size="3x" className="mb-1" />
           <a className="d-block" href={`mailto:${email}`} target="_blank" rel="noreferrer">
             {email}

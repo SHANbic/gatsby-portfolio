@@ -8,3 +8,14 @@
   margin: 15px 0;
   text-transform: none;
 }
+
+#Services .text-center.row div:last-child p {
+  margin-bottom: 0rem !important;
+}
+
+.section-header h2.section-heading {
+  margin-bottom: 3rem;
+  @media (min-width: 768px) {
+    margin-bottom: 5rem;
+  }
+}

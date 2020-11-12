@@ -86,6 +86,18 @@ section:nth-child(odd) {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.phone-icon,
+.mail-icon {
+  a {
+    color: #212529;
+    text-decoration: none;
+    transition: all 200ms;
+    &:hover {
+      color: #fed136;
+    }
+  }
+}
+
 .phone-icon {
   @media (max-width: 576px) {
     margin: 2rem 0;

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import TeamMember from "components/TeamMember";
 import SectionHeader from "components/SectionHeader";
 import PageSection from "components/PageSection";
@@ -12,13 +12,7 @@ const Team = ({ className, frontmatter }) => {
     return null;
   }
 
-  const {
-    anchor,
-    header: rootHeader,
-    subheader: rootSubHeader,
-    content: rootContent,
-    teamMember,
-  } = frontmatter;
+  const { anchor, header: rootHeader, subheader: rootSubHeader, teamMember } = frontmatter;
 
   return (
     <PageSection className={className} id={anchor}>
@@ -30,11 +24,6 @@ const Team = ({ className, frontmatter }) => {
         <TeamMember key={header} header={header} {...tmProps} />
       ))}
       {/* </Row> */}
-      <Row>
-        <Col lg={8} className="mx-auto text-center">
-          <p className="large text-muted">{rootContent}</p>
-        </Col>
-      </Row>
     </PageSection>
   );
 };
