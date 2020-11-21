@@ -37,6 +37,7 @@
   .navbar-brand {
     color: $primary !important;
     text-shadow: 0 0 8px $primary !important;
+    font-family: "VT323" !important;
     transition: color 150ms !important;
     font-family: Verdana !important;
     &.active,
