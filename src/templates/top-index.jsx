@@ -118,7 +118,7 @@ const IndexPage = ({ data }) => {
     <>
       <SEO
         lang="fr"
-        title="lodevev - création site web"
+        title="lovedev - création site web"
         keywords={keywords}
         description={description}
       />
