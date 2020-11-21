@@ -77,7 +77,9 @@ const SEO = ({ lang, description, meta, keywords, title }) => {
             : [],
         )
         .concat(meta)}
-    />
+    >
+      {/* <link rel="icon" href={require("../../content/assets/favicon.gif")} type="image/gif" /> */}
+    </Helmet>
   );
 };
 

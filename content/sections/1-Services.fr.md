@@ -16,7 +16,7 @@ services: [
   {
     iconName: "BoltIcon",
     header: "PERFORMANCE",
-    content: "Des sites Web créés avec les technologies modernes pour assurer un chargement rapide sur chaque page."
+    content: "Des sites Web créés avec les technologies modernes pour assurer un chargement rapide."
   }
 ]
 ---

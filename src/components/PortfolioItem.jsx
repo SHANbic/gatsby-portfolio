@@ -17,6 +17,7 @@ const PortfolioItem = ({
   imageFileNameDetail,
   imageAltDetail,
   extraInfo,
+  projectLink,
 }) => {
   const [showDetail, setShowDetail] = React.useState(false);
   const handleShowDetail = React.useCallback(() => {
@@ -55,7 +56,12 @@ const PortfolioItem = ({
           )}
         </a>
         <div className="portfolio-caption">
-          <h4>{header}</h4>
+          {projectLink && (
+            <a href={projectLink} target="_blank" rel="noreferrer">
+              <h4>{header}</h4>
+            </a>
+          )}
+          {!projectLink && <h4>{header}</h4>}
           {subheader ? <p className="text-muted">{subheader}</p> : null}
         </div>
       </Col>
@@ -82,6 +88,7 @@ PortfolioItem.propTypes = {
   imageFileNameDetail: PropTypes.string,
   imageAltDetail: PropTypes.string,
   extraInfo: PropTypes.any,
+  projectLink: PropTypes.string,
 };
 
 PortfolioItem.defaultProps = {
@@ -91,6 +98,7 @@ PortfolioItem.defaultProps = {
   imageFileNameDetail: "",
   imageAltDetail: "",
   extraInfo: null,
+  projectLink: "",
 };
 
 export default PortfolioItem;

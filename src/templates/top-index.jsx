@@ -47,6 +47,7 @@ export const query = graphql`
           portfolios {
             content
             extraInfo
+            projectLink
             header
             subheader
             imageFileNameDetail
@@ -79,7 +80,8 @@ export const query = graphql`
               twitter
             }
             subheader
-            presentation
+            presentation1
+            presentation2
           }
           telephone
           termsHref

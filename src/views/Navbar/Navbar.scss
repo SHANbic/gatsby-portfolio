@@ -36,12 +36,14 @@
   }
   .navbar-brand {
     color: $primary !important;
-    @include logo-font;
+    text-shadow: 0 0 8px $primary !important;
+    transition: color 150ms !important;
+    font-family: Verdana !important;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($primary, 10%);
+      color: darken($primary, 10%) !important;
     }
   }
 

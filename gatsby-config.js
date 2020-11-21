@@ -18,7 +18,6 @@ module.exports = {
         background_color: "#ffffff",
         theme_color: "#fed136",
         display: "minimal-ui",
-        icon: "content/assets/gatsby-icon.png",
       },
     },
     "gatsby-transformer-remark",
@@ -49,7 +48,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-prefetch-google-fonts",
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
           {
@@ -66,10 +65,6 @@ module.exports = {
           {
             family: "Roboto+Slab",
             variants: [400, 100, 300, 700],
-          },
-          {
-            family: "VT323",
-            variants: [400],
           },
           {
             family: "Cutive Mono",

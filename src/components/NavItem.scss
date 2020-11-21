@@ -3,6 +3,7 @@
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
+  transition: all 150ms;
   color: white !important;
   @include heading-font;
   &.active,

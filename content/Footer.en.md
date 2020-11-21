@@ -1,5 +1,5 @@
 ---
-copyright: "© 2020 - Lovedev"
+copyright: "© 2020 - lovedev"
 social: {
   linkedin: "pierre-lambert-webdevelopment/",
   github: "SHANbic",
