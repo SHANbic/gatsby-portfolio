@@ -39,6 +39,8 @@
     text-shadow: 0 0 8px $primary !important;
     font-family: "VT323" !important;
     font-size: 1.9rem !important;
+    display: flex;
+    align-items: center;
     transition: color 150ms !important;
     &.active,
     &:active,
