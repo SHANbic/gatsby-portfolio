@@ -116,7 +116,12 @@ const IndexPage = ({ data }) => {
 
   return (
     <>
-      <SEO lang="fr" title="Lodevev" keywords={keywords} description={description} />
+      <SEO
+        lang="fr"
+        title="lodevev - création site web"
+        keywords={keywords}
+        description={description}
+      />
       <Navbar anchors={anchors} frontmatter={navBarNode.frontmatter} />
       <Top frontmatter={topNode.frontmatter} />
       {
