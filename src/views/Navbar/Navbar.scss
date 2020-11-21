@@ -38,8 +38,8 @@
     color: $primary !important;
     text-shadow: 0 0 8px $primary !important;
     font-family: "VT323" !important;
+    font-size: 1.9rem !important;
     transition: color 150ms !important;
-    font-family: Verdana !important;
     &.active,
     &:active,
     &:focus,
@@ -67,7 +67,6 @@
     .navbar-brand {
       display: flex;
       align-items: center;
-      font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
