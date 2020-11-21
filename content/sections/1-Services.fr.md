@@ -11,7 +11,7 @@ services: [
   {
     iconName: "LaptopIcon",
     header: "DESIGN",
-    content: "Une vitrine soignée et adaptée aux différents types de média (smartphone, tablette, ordinateur)."
+    content: "Une vitrine soignée et adaptée aux différents types de médias (smartphone, tablette, ordinateur)."
   },
   {
     iconName: "BoltIcon",

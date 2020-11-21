@@ -28,4 +28,11 @@
   @media (max-width: 768px) {
     flex-direction: column;
   }
+
+  &-presentation {
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
 }
